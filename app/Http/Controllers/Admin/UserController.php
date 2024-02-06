@@ -14,6 +14,7 @@ use App\Models\Wallet;
 
 class UserController extends Controller
 {
+    // Comment 2
     public function role_admins(){
         $admins = User::where('position', 'admin')
         ->get();
